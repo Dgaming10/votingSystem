@@ -67,7 +67,7 @@ signed char charComparator(const void* a, const void* b)
 bool validID(char* id)
 {
     if (strlen(id) != 9) { return false; }
-    uint8_t sum = 0;//max sum of such id is 80, therefore the sum can be 
+    uint8_t sum = 0;//max sum of such id is 80, therefore the sum value can also fit into one byte memory space
 
     for (uint8_t i = 0; i < 9; i++)
     {
