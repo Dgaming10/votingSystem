@@ -403,7 +403,7 @@ int main(void) {
                 usleep(50000);
                 #endif
                 printf("-");
-                fflush(stdout);//in case stdout is not automatically flush
+                fflush(stdout);//in case stdout is not automatically flushed
             }
             printf("\033[0m\n");
             userChoice(mainServer.allCitizens, mainServer.numOfCitizens, mainServer.allParties, mainServer.numOfParties);
